@@ -1,6 +1,6 @@
-:root { --primary-color: rgb(63, 57, 53);
-    --secondary-color: rgb(236, 227, 219);
-    --accent-color: rgb(135, 105, 77)}
+:root { --primary-color: (blue);
+    --secondary-color: (White);
+    --accent-color: (grey)}
 body {font-family: cursive; background-color: var(--primary-color)}
 h1 {padding: 10px; margin: auto; font-size: 50px; color: var(--secondary-color)}
 h2 {padding: 10px; margin: auto; font-size: 30px; color: var(--accent-color)}
