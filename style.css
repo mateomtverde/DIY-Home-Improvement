@@ -8,5 +8,3 @@ h2 {padding: 10px; margin: auto; font-size: 30px; color:var(--primary-color)}
 h3 {padding: 10px; margin: auto; font-size: 25px; color:var(--primary-color)}
 p {padding: 10px; margin: auto; font-size: 20px; color: var(--primary-color)}
 ul {padding: 10px; margin: 20px; font-size: 15px; color: var(--secondary-color)}
-.box {border: 5px solid var(--primary-color);
-    width: 300px; height: 300px}
