@@ -11,5 +11,4 @@ ul {padding: 10px; margin: 20px; font-size: 15px; color: var(--secondary-color)}
 .box {border: 5px solid var(--primary-color); 
     width: 300px; height: 300px;
     margin: auto;
-    text-align: center;
-    background-color: var(--background-color)}
+    text-align: center}
