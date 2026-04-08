@@ -29,6 +29,19 @@ ul {padding: 10px;
       font-size: 15px;
        color: var(--secondary-color)
     }
+.background-slidshow {
+    .color-slideshow {
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  animation: colorChange 15s infinite; /* Cycles colors every 15 seconds */
+}
+@keyframes colorChange {
+  0%   { background-color: #3498db; } /* Blue */
+  33%  { background-color: #e74c3c; } /* Red */
+  66%  { background-color: #2ecc71; } /* Green */
+  100% { background-color: #3498db; } /* Returns to Blue */
+}
+}
 .navbar {
     display: flex;
     justify-content: center;
