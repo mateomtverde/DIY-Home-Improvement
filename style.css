@@ -62,11 +62,6 @@ ul {padding: 10px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
 }
-body {
-    background-image: url("pexels-kevin-ku-92347-577585.jpg");
-    background-size: cover;
-    background-position: center;
-}
 section {
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid #000000;
