@@ -1,12 +1,8 @@
 * {
     box-sizing: border-box;
 }   
-:root {--primary-color: black;
-    --secondary-color: white;
-    --accent-color: gray;
-    --background-color: blue}
 body {font-family:'Courier New', Courier, monospace;
-     background-color:black}
+     background-color:rgb(2, 69, 164)}
 h1 {padding: 10px;
     margin: auto;
     font-size: 50px;
@@ -40,7 +36,6 @@ ul {padding: 10px;
   33%  { background-color: #e74c3c; } /* Red */
   66%  { background-color: #2ecc71; } /* Green */
   100% { background-color: #3498db; } /* Returns to Blue */
-}
 }
 .navbar {
     display: flex;
@@ -84,4 +79,35 @@ main {
     width: auto;
     margin: auto;
     padding: 16px;
+}
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .nav-item {
+        font-size: 16px;
+        padding: 6px 12px;
+    }       
+}
+@media (max-width: 1240px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1240px) {
+    p {
+        font-size: 18px;
+    }
+    ul {
+        font-size: 14px;
+    }
 }
