@@ -81,7 +81,7 @@ ul {padding: 10px;
         flex-basis: 30%;
     }
 }
-.navbar {
+.navlinks {
     display: flex;
     justify-content: center;
     align-items: center;
