@@ -65,6 +65,22 @@ ul {padding: 10px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
 }
+.slider-wrapper {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: contain;
+}
 .collection-grid {
     margin: 48px 0;
     display: flex;
