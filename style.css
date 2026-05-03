@@ -87,6 +87,7 @@ ul {padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     gap: 40px;
 }
 
