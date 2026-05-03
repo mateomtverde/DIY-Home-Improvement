@@ -94,9 +94,7 @@ ul {padding: 10px;
     border: 3px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    width: fit-content;
     flex-basis: 100%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -105,9 +103,6 @@ ul {padding: 10px;
 .collection-card img {
     width: 600px;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 5px solid rgb(0, 0, 0);
     margin-bottom: 20px;
 }
