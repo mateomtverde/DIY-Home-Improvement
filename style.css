@@ -54,7 +54,7 @@ ul {padding: 10px;
     font-size: 18px;
     font-weight: medium;
     color: var(--primary-color);
-    background-color: brown;
+    background-color: orange;
     border: 2px solid black;
     box-sizing: border-box;
     border-radius: 8px;
@@ -98,7 +98,7 @@ ul {padding: 10px;
 }
 
 .collection-card img {
-    width: 100%;
+    width: 600px;
     height: auto;
     display: block;
     border: 5px solid rgb(0, 0, 0);
