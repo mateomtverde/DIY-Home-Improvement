@@ -95,6 +95,7 @@ ul {padding: 10px;
     flex-basis: 100%;
     flex-grow: 1;
     flex-shrink: 1;
+    width: fit-content;
 }
 
 .collection-card img {
