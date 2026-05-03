@@ -91,7 +91,7 @@ ul {padding: 10px;
 .collection-card {
     border: 3px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.8);
-    display: block;
+    display: inline-block;
     width: fit-content;
     height: fit-content;
     padding: 16px;
