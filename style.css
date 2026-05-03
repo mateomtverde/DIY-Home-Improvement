@@ -91,10 +91,13 @@ ul {padding: 10px;
 .collection-card {
     border: 3px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    width: fit-content;
+    height: fit-content;
     padding: 16px;
     flex-basis: 100%;
     flex-grow: 1;
-    flex-shrink: inherit;
+    flex-shrink: 1;
 }
 
 .collection-card img {
