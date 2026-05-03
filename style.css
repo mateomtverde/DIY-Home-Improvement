@@ -96,7 +96,7 @@ ul {padding: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 16px;
     width: 600px;
-    height: 700px
+    height: 700px;
     flex-basis: 100%;
     flex-grow: 1;
     flex-shrink: 1;
