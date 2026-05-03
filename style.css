@@ -91,8 +91,6 @@ ul {padding: 10px;
 .collection-card {
     border: 3px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.8);
-    width: 650px;
-    height: fit-content;
     padding: 16px;
     display: flex;
     justify-content: center;
