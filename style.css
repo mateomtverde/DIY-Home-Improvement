@@ -103,8 +103,8 @@ ul {padding: 10px;
 .collection-card img {
     width: auto;
     height: auto;
+    object-fit: contain;
     border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 20px;
 }
 
 .collection-card h2 {
