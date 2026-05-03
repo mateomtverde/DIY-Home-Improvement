@@ -5,6 +5,7 @@ body {font-family:'Courier New', Courier, monospace;
      background-color: sandybrown;}
 h1 {padding: 10px;
     margin: auto;
+    text-align: center;
     font-size: 50px;
     color:rgb(0, 0, 0)
 }
