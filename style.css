@@ -2,25 +2,25 @@
     box-sizing: border-box;
 }   
 body {font-family:'Courier New', Courier, monospace;
-     background-color:rgb(0, 0, 0);}
+     background-color: sandybrown;}
 h1 {padding: 10px;
     margin: auto;
     font-size: 50px;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 h2 {padding: 10px;
     margin: auto;
     font-size: 30px;
-    color:rgb(255, 255, 255)}
+    color:rgb(0, 0, 0)}
 h3 {padding: 10px;
     margin: auto;
     font-size: 25px;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 p {padding: 10px;
     margin: auto;
     font-size: 20px;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 section {
     background-color: rgba(255, 255, 255, 0.8);
@@ -54,7 +54,7 @@ ul {padding: 10px;
     font-size: 18px;
     font-weight: medium;
     color: var(--primary-color);
-    background-color: rgb(130, 255, 99);
+    background-color: brown;
     border: 2px solid black;
     box-sizing: border-box;
     border-radius: 8px;
@@ -84,13 +84,13 @@ ul {padding: 10px;
 .collection-grid {
     margin: 48px 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 40px;
 }
 
 .collection-card {
     border: 3px solid rgb(0, 0, 0);
-    background-color: #3fc1ed;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 16px;
     flex-basis: 300px;
     flex-grow: 1;
