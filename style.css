@@ -135,6 +135,7 @@ ul {padding: 10px;
     padding: 16px;
     width: 480px;
     height: 550px;
+    max-width: 400px;
     flex-basis: 100%;
     flex-grow: 1;
     flex-shrink: 1;
