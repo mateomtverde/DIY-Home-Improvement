@@ -87,6 +87,16 @@ ul {padding: 10px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
 }
+#___gcse_0 {
+    margin: 16px auto;
+    width: 600px;
+    border: 2px solid #000000;
+}
+
+.gsc-control-cse {
+    padding: 0;
+    width: auto;
+}
 .slider-wrapper {
   position: relative;
   max-width: 800px;
